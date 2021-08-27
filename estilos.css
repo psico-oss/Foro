@@ -1,0 +1,347 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url("imagenes/fondo.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+input {font-weight:bold;}
+* {
+    box-sizing: border-box;
+}
+.b{
+    text-decoration: none!important;
+    color: aliceblue;
+    background: cadetblue;
+    padding: 20px;
+}
+.b:hover{
+	background: #26383f;
+	color: #fff;
+}
+.todo{
+    width:100%;
+    text-align: center;
+     display: flex;
+     flex-direction: row;
+}
+.contenedor{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+.centrado{
+    align-items: center;
+}
+.formulario{
+    border:3px solid #000;
+    background: #fff;
+
+}
+.discu{
+    margin: 15px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 30px;
+}
+.tit{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+    text-align: left;
+}
+.aut{
+    text-align: left;
+    margin: 20px;
+}
+.text{
+    text-overflow: ellipsis;
+   
+    overflow: hidden;
+    white-space: nowrap;
+}
+.formularioi{
+    border:3px solid #000;
+    background: #fff;
+
+}
+
+p {
+	text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h1{
+    text-align: center;
+    color: #5475b0;
+    font-size: 40px;
+}
+.mov{
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 550;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans Condensed';
+    color: #9198a2;
+    background: white;
+    border-radius: 45px;
+    border-style: double;
+}
+.mov1{
+
+    font-family: 'Open Sans Condensed';
+    color: #9198a2;
+    background: white;
+    border-radius: 45px;
+    border-style: double;
+    font-size: 40px;
+    font-weight: 550;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.dise{
+    padding: 13px;
+    font-size: 20px;
+    font-weight: 550;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    color: deeppink;
+    background: white;
+    border-radius: 45px;
+    border-style: double;
+}
+.dise1{
+    padding: 13px;
+    font-size: 20px;
+    font-weight: 550;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans Condensed';
+    color: #9198a2;
+    background: white;
+    border-radius: 45px;
+    border-style: double;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 89%;
+    padding: 20px 20px;
+    /*border: none;*/
+    
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 31px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    color: white;
+    font-size: 20px;
+    background:  #5475b0;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+   
+}
+.button:hover{
+    background: cadetblue;
+}
+
+.link{
+    text-decoration: none;
+      color: #5475b0 ;
+    font-weight: 600;
+}
+.link:hover{
+     color: #fff;
+}
+.barra{
+	width: 100%;
+    background:#d64040;
+    display: flex;
+}
+.boton{
+	width: 50%;
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;
+}
+a{  
+    color:  #5475b0 ;
+    transition: all 1s;
+    background: rgba(255,255,255);
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 2em;
+    font-weight: bold;
+}
+a:hover{
+	background: #5475b0;
+  	color: #fff;
+}
+.img {
+    border-radius: 30px;
+	width: 50px;
+	margin: 10px
+}
+.img1{
+    padding: 10px;
+    width: 40%;
+}
+.imagen{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.mg{
+    width: 50%;
+	text-align: right;
+}
+.texto{
+	background: #fff;
+    width: 50%;
+    text-align: center;
+    margin: 25%;
+    border: 3px solid black;
+
+}
+.cont1{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: end;
+
+}
+.ed{
+    display: block;
+    width: 50%;
+    padding: 10px;
+    
+}
+textarea {
+  resize: none;
+}
+.s{
+   padding: 15px 20px 15px 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    text-align: center;
+}
+
+@media (min-width:1000px){
+    .formulario{
+        margin:150px;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+  .formularioi{
+        margin:370px;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+    .texto{
+	background: #fff;
+	min-width: 50%;
+    text-align: center;
+    margin: 20%;
+    border: 3px solid black;
+
+}
+    .pato{
+        margin-top: 150px;
+    }
+
+
+}
+@media (max-width:999px){
+.pato{display:none;}
+.formulario{
+   
+        margin:150px;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+
+.todo{
+  
+    width: 100%;
+    display:block;
+
+}
+input[type="text"],
+    input[type="password"]{
+    width: 88%;
+}
+
+}
+@media (max-width:700px){
+.pato{display:none;}
+.formulario{
+        margin:auto;
+        margin-top:0px;
+        width: 500px;
+        border-radius: 2%;
+    }
+
+
+input[type="text"],
+    input[type="password"]{
+    width: 88%;
+
+}
+}
+@media (max-width:699px){
+    .pato{display:none;}
+    .formulario{
+        width: 100%;
+        margin:auto;
+        margin-top: 0px;
+        border-radius: 2%;
+    }
+
+    input[type="text"],
+    input[type="password"]{
+    width: 84%;
+}
+
+}
+
+@media (max-width:420px){
+    input[type="text"],
+    input[type="password"]{
+    width: 80%;
+ 
+}
+.texto{
+    width:75%;
+}
+}
